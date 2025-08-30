@@ -4,8 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <header>
+      <nav class="navbar">
+        <!-- logo -->
+        <a href="/" class="logo">
+          <span>StartUp</span>
+        </a>
+        <!-- navbar Links -->
+        <ul class="navLinks">
+          <li id="home" class="navItems"><a href="/">Home</a></li>
+          <li class="navItems"><a href="/about">About Us</a></li>
+          <li class="navItems"><a href="/contact">Contact Us</a></li>
+          <li class="navItems"><a href="/login">Login</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="bodyArea">
+      <!-- body -->
+      <div class="introImgArea">
+        <div class="introSection">
+          <!-- intro section -->
+          <h1>My Success Story</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            quasi accusantium non quas praesentium blanditiis quos nihil,
+            dignissimos harum ex id alias illum, aliquam ea excepturi magnam
+            adipisci ullam? Quae! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Sunt excepturi quibusdam, natus similique
+            necessitatibus totam corrupti dolore veniam vitae voluptas, rem
+            optio assumenda sint dicta deserunt velit, fugiat earum. Culpa.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+            ratione delectus esse inventore eius quis optio veritatis tempora
+            odit cumque corrupti suscipit, fugiat nim ipsam, temporibus
+            molestias laudantium! Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Delectus sed cupiditate id iste amet, minima
+            voluptatibus! Voluptas, ea pariatur neque veritatis, tenetur fugiat
+            quibusdam necessitatibus temporibus hic quae ipsum eveniet. Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. At quia cumque
+            sapiente! Alias nihil, exercitationem, error accusantium in optio
+            dolor voluptate repellendus veritatis sed dolores fuga nulla
+            quibusdam laboriosam sit.
+          </p>
+          <button>Login to Read Full Story</button>
+        </div>
+        <div class="img">
+          <!-- Image area -->
+          <img height="482px" width="697px" src="image.png" alt="jeff" />
+        </div>
+      </div>
+      <!-- Contact Area -->
+      <div class="contactSection">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+          <input type="text" class="inputs" placeholder="Name" />
+          <input type="email" class="inputs" placeholder="Email" />
+
+          <input type="text" class="inputs half" placeholder="Mobile Number" />
+          <input type="text" class="inputs half" placeholder="City" />
+
+          <button class="form-btn">Submit Form</button>
+        </form>
+      </div>
+
+      <!-- Table Section -->
+      <div class="tableSection">
+        <table>
+          <thead>
+            <tr>
+              <th>SNO.</th>
+              <th>Startup Name</th>
+              <th>Startup Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1.</td>
+              <td>WowIndia</td>
+              <td>A startup with WOW Ideas.</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Lorem Ipsum</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Lorem Ipsum</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Lorem Ipsum</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Lorem Ipsum</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+            <tr>
+              <td>2.</td>
+              <td>Lorem Ipsum</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>00.</td>
+              <td>Final Footer</td>
+              <td>Lorem Ipsum Text</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+    </div>
   </body>
 </html>
